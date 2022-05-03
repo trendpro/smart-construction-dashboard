@@ -1,0 +1,98 @@
+/** app component css */
+body {
+  background-color: #29292F;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 15%;
+  padding-top: 48px;
+}
+
+.app-header {
+  width: 100%;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.app-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.action-buttons button {
+  width: 97px;
+  height: 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  height: 32px;
+  border-radius: 26px;
+}
+
+.add-btn {
+  background-color: #0075DB;
+}
+
+.delete-btn {
+  background-color: #FF444C;
+}
+
+.delete-btn:disabled {
+  background-color: #737373;
+}
+
+.materials {
+  width: 100%;
+  display: flex;
+  flex-direction: rows;
+  gap: 1rem;
+}
+
+.materials-list {
+  width: 220px;
+  height: 284px;
+  background-color: #17171A;
+  border: 1px solid #565664;
+}
+
+.materials-form {
+  width: 536px;
+  height: 284px;
+  background-color: #1D1D21
+}
+
+.total-cost-label {
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 16px;
+}

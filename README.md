@@ -3,7 +3,7 @@
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 > Run `yarn install` to install dependencies before starting the project.
 
@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 > Please ensure the server is running and listening for connections from `http://localhost:4000`
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -34,5 +34,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 1. Currency should be formatted.
 
 ## How long it took to build?
-API development: 1 hour 37min
-Web app development: 2 hours
+API development: **1 hour 37min**
+
+Web app development: **2 hours**
